@@ -47,8 +47,8 @@ Display the result.
 
 ## Program:
 ```
-Developed By : J.JENISHA
-Reg. No. : 212222230056
+Developed By :HYCINTH D
+Reg. No. : 212223240055
 ```
 ### I)Perform ROI from an image
 ```python

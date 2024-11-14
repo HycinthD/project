@@ -69,9 +69,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## Output:
-![Screenshot 2024-05-17 183515](https://github.com/Jenishajustin/project/assets/119405070/06d72d1c-58b4-47cc-bf94-8c1b72ee6c89)
+![Screenshot 2024-11-14 193732](https://github.com/user-attachments/assets/59ef64d9-3662-4e00-b346-851d500b9952)
 
-![Screenshot 2024-05-17 183528](https://github.com/Jenishajustin/project/assets/119405070/a5d60838-2af8-40eb-be81-52f5542d1435)
+![Screenshot 2024-11-14 193752](https://github.com/user-attachments/assets/22c37838-d496-47ab-a390-d113e6e75915)
 
 ### II)Perform handwritting detection in an image
 ```python

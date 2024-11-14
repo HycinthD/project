@@ -55,7 +55,7 @@ Reg. No. : 212223240055
 import cv2
 import numpy as np
 
-image = cv2.imread('shinchan.jpeg')
+image = cv2.imread('Nature.jpeg')
 re=cv2.resize(image,(450,300))
 image_rgb = cv2.cvtColor(re, cv2.COLOR_BGR2RGB)
 cv2.imshow('Original Image', image_rgb)

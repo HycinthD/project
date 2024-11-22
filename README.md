@@ -165,7 +165,7 @@ plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 ![image](https://github.com/user-attachments/assets/56ea969f-2059-454b-9185-9bde1298dff5)
 
 ## II)Perform handwritting detection in an image:
-![image](https://github.com/user-attachments/assets/66b135af-5b6f-4678-8933-abe1ccd75e7a)
+![image](https://github.com/user-attachments/assets/c3d3513f-473a-4606-aafc-d2cca8e589d7)
 
 ## III)Perform object detection with label in an image:
 ![image](https://github.com/swethamohanraj/project/assets/94228215/f013cf98-0fa0-4ce4-9fa9-f9b12747a90e)

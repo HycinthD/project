@@ -1,66 +1,52 @@
+# Object Detection-project
 ## Aim
-To write a python program using OpenCV to do the following image manipulations. i) Extract ROI from an image. ii) Perform handwritting detection in an image. iii) Perform object detection with label in an image.
-
+To write a python program using OpenCV to do the following image manipulations.
+i) Extract ROI from  an image.
+ii) Perform handwritting detection in an image.
+iii) Perform object detection with label in an image.
 ## Software Required:
 Anaconda - Python 3.7
-
 ## Algorithm:
-I)Perform ROI from an image
-# Step1:
-Import necessary packages
-
-# Step2:
+## I)Perform ROI from an image
+### Step1:
+Import necessary packages 
+### Step2:
 Read the image and convert the image into RGB
-
-# Step3:
+### Step3:
 Display the image
-
-# Step4:
-Set the pixels to display the ROI
-
-# Step5:
-Perform bit wise conjunction of the two arrays using bitwise_and
-
-# Step6:
+### Step4:
+Set the pixels to display the ROI 
+### Step5:
+Perform bit wise conjunction of the two arrays  using bitwise_and 
+### Step6:
 Display the segmented ROI from an image.
-
-II)Perform handwritting detection in an image
-Step1:
-Import necessary packages
-
-Step2:
+## II)Perform handwritting detection in an image
+### Step1:
+Import necessary packages 
+### Step2:
 Define a function to read the image,Convert the image to grayscale,Apply Gaussian blur to reduce noise and improve edge detection,Use Canny edge detector to find edges in the image,Find contours in the edged image,Filter contours based on area to keep only potential text regions,Draw bounding boxes around potential text regions.
-
-Step3:
+### Step3:
 Display the results.
-
-III)Perform object detection with label in an image
-Step1:
-Import necessary packages
-
-Step2:
+## III)Perform object detection with label in an image
+### Step1:
+Import necessary packages 
+### Step2:
 Set and add the config_file,weights to ur folder.
-
-Step3:
+### Step3:
 Use a pretrained Dnn model (MobileNet-SSD v3)
-
-Step4:
+### Step4:
 Create a classLabel and print the same
-
-Step5:
+### Step5:
 Display the image using imshow()
-
-Step6:
+### Step6:
 Set the model and Threshold to 0.5
-
-Step7:
+### Step7:
 Flatten the index,confidence.
-
-Step8:
+### Step8:
 Display the result.
-
-Program:
-I)Perform ROI from an image
+## Program:
+## I)Perform ROI from an image
+```python
 #Import necessary packages 
 import cv2
 import numpy as np
@@ -94,7 +80,9 @@ plt.axis('off')
 
 # Show both images side by side
 plt.show()
-II)Perform handwritting detection in an image
+```
+## II)Perform handwritting detection in an image
+```python
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -120,7 +108,9 @@ def detect_handwriting(image_path):
     
 image_path = 'handwriting.jpg'
 detect_handwriting(image_path)
-III)Perform object detection with label in an image
+```
+## III)Perform object detection with label in an image
+```python
 # Import necessary packages 
 import cv2
 import matplotlib.pyplot as plt
@@ -169,15 +159,17 @@ for ClassInd,conf,boxes in zip(ClassIndex.flatten(),confidence.flatten(),bbox):
 
 # Display the result.
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
-I)Perform ROI from an image:
-image image
+```
+## I)Perform ROI from an image:
+![image](https://github.com/user-attachments/assets/11627702-9190-4884-af45-77c41e59f524)
+![image](https://github.com/user-attachments/assets/56ea969f-2059-454b-9185-9bde1298dff5)
 
-II)Perform handwritting detection in an image:
-image
+## II)Perform handwritting detection in an image:
+![image](https://github.com/user-attachments/assets/66b135af-5b6f-4678-8933-abe1ccd75e7a)
 
-III)Perform object detection with label in an image:
-image image
-
+## III)Perform object detection with label in an image:
+![image](https://github.com/swethamohanraj/project/assets/94228215/f013cf98-0fa0-4ce4-9fa9-f9b12747a90e)
+![image](https://github.com/swethamohanraj/project/assets/94228215/3e4a66ff-a37e-45b2-be39-1ddb487d19a4)
 ## Result :
 Thus a python program using OpenCV is written to do the following image manipulations:
 
